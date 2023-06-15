@@ -10,7 +10,7 @@ while exit == False:
     user_input = input("Choose rock, paper or scissors: ")
     computer_input = random.choice(options)
     
-    if user_input == "exit":
+    if user_input == "quit":
         print("Game ended")
         exit = True
     
